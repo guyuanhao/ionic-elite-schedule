@@ -29,6 +29,7 @@ export class TeamsPage {
   }
 
   teamTapped($event, team){
+    console.log("sending team : " + team);
     this.navCtrl.push(TeamHomePage, team);
   }
 
