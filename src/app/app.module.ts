@@ -12,6 +12,8 @@ import { TournamentsPage } from './../pages/pages';
 import { TeamsPage } from './../pages/pages';
 import { GamePage } from './../pages/pages';
 import { TeamDetailPage } from './../pages/pages';
+import { TeamHomePage } from './../pages/pages';
+import { StandingsPage } from './../pages/pages';
 
 @NgModule({
   declarations: [
@@ -20,10 +22,12 @@ import { TeamDetailPage } from './../pages/pages';
     TournamentsPage,
     TeamsPage,
     GamePage,
-    TeamDetailPage
+    TeamDetailPage,
+    TeamHomePage,
+    StandingsPage
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, 
     IonicModule.forRoot(MyApp),
   ],
   bootstrap: [IonicApp],
@@ -33,7 +37,9 @@ import { TeamDetailPage } from './../pages/pages';
     TournamentsPage,
     TeamsPage,
     GamePage,
-    TeamDetailPage
+    TeamDetailPage,
+    TeamHomePage,
+    StandingsPage
   ],
   providers: [
     StatusBar,
