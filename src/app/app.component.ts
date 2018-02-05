@@ -7,7 +7,8 @@ import { MyTeamsPage } from './../pages/pages';
 import { TournamentsPage } from './../pages/pages';
 
 @Component({
-  templateUrl: 'app.html'
+  templateUrl: 'app.html',
+
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;

@@ -14,7 +14,5 @@
 
 
 <ion-content padding>
-  <button ion-item (click)="tournamentTapped()">Tournament A </button>
-  <button ion-item (click)="tournamentTapped()">Tournament B </button>
-  <button ion-item (click)="tournamentTapped()">Tournament C </button>
+  <button ion-item *ngFor="let tournament of tournaments" (click)="tournamentTapped($event, tournament)">{{tournament.name}} </button>
 </ion-content>
